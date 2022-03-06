@@ -20,10 +20,10 @@
         app:titleTextColor="#1E1E1E" />
 
     <TextView
-        android:id="@+id/exerciseName"
+        android:id="@+id/getReadytxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="296dp"
+        android:layout_marginTop="200dp"
         android:text="Get Ready For"
         android:textColor="@color/green"
         android:textSize="24sp"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/exerciseName"
+        app:layout_constraintTop_toBottomOf="@+id/getReadytxt"
         app:layout_constraintVertical_bias="0.0">
 
         <ProgressBar
@@ -78,19 +78,45 @@
         </LinearLayout>
     </FrameLayout>
 
+    <ImageView
+        android:id="@+id/exerciseImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/exercise1"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/exerciseName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+
+    <TextView
+        android:id="@+id/exerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Jumping Jacks"
+        android:textColor="@color/green"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/flExerciseView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <FrameLayout
         android:id="@+id/flExerciseView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginTop="16dp"
-        android:visibility="gone"
+        android:layout_margin="20dp"
         android:background="@drawable/frame_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/exerciseName"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintStart_toStartOf="parent">
 
         <ProgressBar
             android:id="@+id/progressBarExercise"
@@ -104,6 +130,7 @@
             android:progress="300"
             android:progressDrawable="@drawable/circular_progressbar"
             android:rotation="-90" />
+
 
         <LinearLayout
             android:layout_width="60dp"
@@ -120,6 +147,7 @@
                 android:textColor="#1E1E1E"
                 android:textSize="25sp"
                 android:textStyle="bold" />
+
 
         </LinearLayout>
     </FrameLayout>
