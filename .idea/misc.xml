@@ -7,12 +7,18 @@
         <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/drawable-v24/circular_progressbar_gray.xml" value="1.0" />
         <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/drawable/circular_progressbar.xml" value="0.2425" />
         <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/drawable/circular_progressbar_gray.xml" value="0.2425" />
+        <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/drawable/exercise_status.xml" value="0.2425" />
         <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/drawable/frame_background.xml" value="0.2425" />
         <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/drawable/frame_ripple_background.xml" value="0.2425" />
         <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2425" />
         <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/drawable/item_background.xml" value="0.2425" />
+        <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/drawable/selected_exercise_background.xml" value="0.2425" />
+        <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/layout/activity_bmi_calculator.xml" value="0.23645833333333333" />
         <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/layout/activity_exercise.xml" value="0.23645833333333333" />
+        <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/layout/activity_finish.xml" value="0.23645833333333333" />
         <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/layout/exercise_custom_dialog.xml" value="0.23645833333333333" />
+        <entry key="..\:/Android Realtime Applications/7MInutesWorkout/app/src/main/res/layout/item_exercise_status.xml" value="0.23645833333333333" />
       </map>
     </option>
   </component>

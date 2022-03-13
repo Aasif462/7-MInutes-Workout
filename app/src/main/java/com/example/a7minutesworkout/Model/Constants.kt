@@ -25,35 +25,35 @@ object Constants
         )
 
         val ex5 = ExerciseModel(
-            2 , "Setup On Chair" , R.drawable.exercise5 , false , false
+            5 , "Setup On Chair" , R.drawable.exercise5 , false , false
         )
 
         val ex6 = ExerciseModel(
-            2 , "Incline Push ups" , R.drawable.exercise6 , false , false
+            6 , "Incline Push ups" , R.drawable.exercise6 , false , false
         )
 
         val ex7 = ExerciseModel(
-            2 , "Knee Push ups" , R.drawable.exercise7 , false , false
+            7 , "Knee Push ups" , R.drawable.exercise7 , false , false
         )
 
         val ex8 = ExerciseModel(
-            2 , "Wide Arm Push ups" , R.drawable.exercise8 , false , false
+            8 , "Wide Arm Push ups" , R.drawable.exercise8 , false , false
         )
 
         val ex9 = ExerciseModel(
-            2 , "Cobra Stretch" , R.drawable.exercise9 , false , false
+            9 , "Cobra Stretch" , R.drawable.exercise9 , false , false
         )
 
         val ex10 = ExerciseModel(
-            2 , "Cheast Stretch" , R.drawable.exercise10 , false , false
+            10 , "Cheast Stretch" , R.drawable.exercise10 , false , false
         )
 
         val ex11 = ExerciseModel(
-            2 , "Squats" , R.drawable.exercise11 , false , false
+            11 , "Squats" , R.drawable.exercise11 , false , false
         )
 
         val ex12 = ExerciseModel(
-            2 , "Side Lying Leg Lift Left" , R.drawable.exercise12 , false , false
+            12 , "Side Lying Leg Lift Left" , R.drawable.exercise12 , false , false
         )
 
         exerciseList.add(ex1)
