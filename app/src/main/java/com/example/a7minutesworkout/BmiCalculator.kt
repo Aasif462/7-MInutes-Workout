@@ -2,6 +2,7 @@ package com.example.a7minutesworkout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_bmi_calculator.*
@@ -24,12 +25,18 @@ class BmiCalculator : AppCompatActivity() {
         }
 
         calculate.setOnClickListener {
-            if(validateMetricUnit()){
-                val weight:Float = weight.text.toString().toFloat()
-                val height:Float = height.text.toString().toFloat()/100
+                if(weight.text.toString().isNotEmpty() && height.text.toString().isEmpty()){
+                    if(validateMetricUnit()){
+                        val weights:Float = weight.text.toString().toFloat()
+                        val heights:Float = height.text.toString().toFloat()/100
+                        val bmi = weights / (heights/heights)
+                        bmiResult(bmi)
+                }
+                else{
+                    Toast.makeText(applicationContext, "Enter Valid Values", Toast.LENGTH_SHORT)
+                        .show()
+                }
 
-                val bmi = weight / (height/height)
-                bmiResult(bmi)
             }
             else{
                 Toast.makeText(applicationContext, "Please Enter Valid Value", Toast.LENGTH_SHORT)
